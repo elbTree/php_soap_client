@@ -1,0 +1,10 @@
+Formatting XML Parameters Correctly: 
+https://stackoverflow.com/questions/14363147/php-soapclient-malformed-xml
+https://stackoverflow.com/questions/10297099/php-soap-request-not-right
+https://stackoverflow.com/questions/12730327/params-in-wrong-place-when-using-php-soapclient
+https://stackoverflow.com/questions/52832976/php-soapclient-soap-call-with-nested-parameters
+Look up SimpleXML
+
+ 	  $credentials->UserKey = 'EA501ED2-1083-477A-9AA7-3BFD1362C126';
+	  $credentials->UserName = 'leaman_api';
+	  $credentials->Password = 'OFk9ODu!!3^mS';

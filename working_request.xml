@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope
+	xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:ns1="http://tempuri.org/"
+	xmlns:ns2="http://www.w3.org/2005/08/addressing">
+	<env:Header>
+		<ns2:Action>http://tempuri.org/ITPWXMLService/GetCatalogData</ns2:Action>
+		<ns2:ReplyTo><ns2:Address>http://www.w3.org/2005/08/addressing/anonymous</ns2:Address></ns2:ReplyTo>
+		<ns2:To>https://qawebservices.packagingwholesalers.com/TPWXMLService.svc</ns2:To>
+	</env:Header>
+	<env:Body>
+		<GetCatalogData xmlns="http://tempuri.org/">
+		<elemRequest>
+		<TPW xmlns="">
+		<Request>
+		<RequestType>PRODUCT</RequestType>
+		<Credentials>
+			<UserKey>EA501ED2-1083-477A-9AA7-3BFD1362C126</UserKey>
+			<UserName>leaman_api</UserName>
+			<Password>OFk9ODu!!3^mS</Password>
+		</Credentials>
+		</Request>
+		</TPW>
+		</elemRequest>
+		</GetCatalogData>
+	</env:Body>
+</env:Envelope>
